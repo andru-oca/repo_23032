@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To Upload</title>
+
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+            }
+
+            center {
+                height: 70%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+            }
+
+            .container {
+                display: flex;
+                gap: 10px;
+                width: 70%;
+            }
+
+            .card {
+                height: 200px;
+                background-color: rgb(48, 207, 232);
+                flex: 1;
+                transition: 600ms;
+                border-radius: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-shrink: 3;
+            }
+
+            .card:not(:hover) {
+                font-size: 10px;
+            }
+            .card:hover {
+                font-size: 2rem;
+                flex: 3;
+                /* background-color: transparent;
+                background-image: url("https://news.itsfoss.com/content/images/size/w1304/2022/09/linux-kernel-6-0-release.png");
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-clip: border-box; */
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>DATA VIEWER</h1>
+            <div class="container">
+                <div class="card">
+                    <h1>FIRST VALUE</h1>
+                </div>
+                <div class="card">
+                    <h1>SECOND VALUE</h1>
+                </div>
+                <div class="card">
+                    <h1>THIRD VALUE</h1>
+                </div>
+                <div class="card">
+                    <h1>FOURTH VALUE</h1>
+                </div>
+                <div class="card">
+                    <h1>FIFTH VALUE</h1>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
